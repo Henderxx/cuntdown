@@ -4,4 +4,11 @@ body {
     margin: auto;
     max-width: 38rem;
     padding: 2rem;
+    background-color: $indigo-400;
+    // background-image: url("../images/2I9K.gif");
   }
+
+#demo {
+color: $cyan-500;
+font-weight: 900;
+}
