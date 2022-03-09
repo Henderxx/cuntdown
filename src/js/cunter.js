@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Mar 8, 2022 15:00:00").getTime();
+var countDownDate = new Date("Mar 9, 2022 15:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -23,6 +23,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "HENIO HAS LEFT THE BUILDING !!!";
+    document.getElementById("fireworks").classList.remove('d-none');
   }
 }, 1000);
